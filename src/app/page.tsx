@@ -14,18 +14,31 @@ export default function Home() {
     <>
       {/* Hero */}
       <section style={{ background: 'linear-gradient(135deg, #1d4ed8 0%, #2563eb 60%, #3b82f6 100%)', color: 'white', padding: '80px 24px 100px', position: 'relative', overflow: 'hidden' }}>
-        <div style={{ position: 'absolute', top: 0, right: 0, width: 400, height: 400, opacity: 0.05 }}>
-          <svg viewBox="0 0 400 400" fill="none">
-            {[0,1,2,3].map(i => (
-              <g key={i} transform={`translate(${i*80}, ${i*60})`}>
-                <polygon points="80,20 50,60 110,60" fill="white"/>
-                <rect x="53" y="59" width="54" height="40" rx="3" fill="white"/>
-                <circle cx="100" cy="38" r="14" stroke="#f59e0b" strokeWidth="4" fill="none"/>
-                <line x1="110" y1="48" x2="118" y2="56" stroke="#f59e0b" strokeWidth="4" strokeLinecap="round"/>
-              </g>
-            ))}
-          </svg>
-        </div>
+        {/* Filigrane maisons — identique à la carte de visite */}
+        <svg style={{ position: 'absolute', top: 0, right: 0, width: '55%', height: '100%', pointerEvents: 'none' }} viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+          <g opacity="0.1" fill="white">
+            {/* Maison grande */}
+            <polygon points="390,20 355,65 425,65"/>
+            <rect x="358" y="64" width="64" height="44" rx="3"/>
+            {/* Maison moyenne droite */}
+            <polygon points="460,55 432,84 488,84"/>
+            <rect x="435" y="83" width="50" height="34" rx="2"/>
+            {/* Maison petite gauche */}
+            <polygon points="340,80 316,104 364,104"/>
+            <rect x="319" y="103" width="42" height="28" rx="2"/>
+            {/* Petite maison fond */}
+            <polygon points="420,108 404,124 436,124"/>
+            <rect x="407" y="123" width="26" height="20" rx="2"/>
+            {/* Maison basse */}
+            <polygon points="480,118 466,130 494,130"/>
+            <rect x="468" y="129" width="24" height="16" rx="2"/>
+          </g>
+          {/* Loupe ambrée */}
+          <g opacity="0.9">
+            <circle cx="400" cy="40" r="18" fill="none" stroke="#f59e0b" strokeWidth="3"/>
+            <line x1="413" y1="53" x2="424" y2="64" stroke="#f59e0b" strokeWidth="3" strokeLinecap="round"/>
+          </g>
+        </svg>
         <div style={{ maxWidth: 1100, margin: '0 auto', position: 'relative' }}>
           <div style={{ display: 'inline-block', background: 'rgba(245,158,11,0.2)', border: '1px solid rgba(245,158,11,0.4)', borderRadius: 20, padding: '6px 16px', fontSize: 13, fontWeight: 500, color: '#fcd34d', marginBottom: 24 }}>
             Ingénieur Expert Bâtiment — Occitanie

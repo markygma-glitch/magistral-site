@@ -63,14 +63,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <p style={{ opacity: 0.7, fontSize: 14, lineHeight: 2 }}>
                 📱 06 17 36 73 81<br/>
                 ✉ magistral.ingenierie@gmail.com<br/>
-                📍 33 avenue Gambetta, 34110 Mireval
+                📍 Mireval
               </p>
             </div>
             <div>
               <p style={{ fontWeight: 600, marginBottom: 12, color: '#f59e0b' }}>Zone d&apos;intervention</p>
               <p style={{ opacity: 0.7, fontSize: 14, lineHeight: 2 }}>
-                Occitanie<br/>
-                Hérault · Pyrénées-Orientales · Gard
+                Occitanie
               </p>
             </div>
           </div>
