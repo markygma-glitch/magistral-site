@@ -43,7 +43,7 @@ export default function APropos() {
             <div style={{ background: '#f8fafc', borderRadius: 16, padding: '24px', border: '1px solid #e2e8f0' }}>
               <p style={{ color: '#2563eb', fontWeight: 600, fontSize: 14, letterSpacing: 1, textTransform: 'uppercase', marginBottom: 16 }}>Zone d&apos;intervention</p>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
-                {['Hérault (34)', 'Pyrénées-Orientales (66)', 'Gard (30)', 'Aude (11)', 'Haute-Garonne (31)', 'Occitanie'].map(z => (
+                {['Occitanie'].map(z => (
                   <span key={z} style={{
                     background: '#dbeafe', color: '#1d4ed8',
                     padding: '4px 12px', borderRadius: 20, fontSize: 13, fontWeight: 500

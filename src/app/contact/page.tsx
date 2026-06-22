@@ -82,7 +82,7 @@ export default function Contact() {
               {[
                 { icon: '📱', label: 'Téléphone', val: '06 17 36 73 81', sub: 'Du lundi au vendredi, 8h-19h' },
                 { icon: '✉', label: 'Email', val: 'magistral.ingenierie@gmail.com', sub: 'Réponse sous 24h' },
-                { icon: '📍', label: 'Adresse', val: '33 avenue Gambetta, 34110 Mireval', sub: 'Interventions sur toute l\'Occitanie' },
+                { icon: '📍', label: 'Adresse', val: 'Mireval', sub: 'Interventions sur toute l\'Occitanie' },
               ].map(({ icon, label, val, sub }) => (
                 <div key={label} style={{
                   display: 'flex', gap: 16, alignItems: 'flex-start',
