@@ -121,7 +121,7 @@ export default function Home() {
           <h2 style={{ fontSize: 36, fontWeight: 800, marginBottom: 48, color: '#1e293b' }}>Un expert indépendant à vos côtés</h2>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 40 }}>
             {[
-              { title: 'Diplômé ingénieur', desc: 'Des rapports techniques rigoureux et opposables, signés par un ingénieur qualifié.' },
+              { title: 'Diplômé ingénieur BTP', desc: 'Des rapports techniques rigoureux et opposables, signés par un ingénieur qualifié.' },
               { title: 'Totalement indépendant', desc: 'Aucun lien avec des entreprises de travaux. Mon seul engagement est votre intérêt.' },
               { title: 'Réactif', desc: 'Intervention sous 48 à 72h sur toute l\'Occitanie pour répondre à vos urgences.' },
               { title: 'Rapports clairs', desc: 'Des conclusions précises avec photos, schémas et préconisations concrètes.' },

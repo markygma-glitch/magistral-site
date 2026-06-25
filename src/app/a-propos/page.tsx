@@ -37,7 +37,7 @@ export default function APropos() {
             <div style={{ background: '#f8fafc', borderRadius: 16, padding: '24px', border: '1px solid #e2e8f0' }}>
               <p style={{ color: '#2563eb', fontWeight: 600, fontSize: 14, letterSpacing: 1, textTransform: 'uppercase', marginBottom: 16 }}>Formation</p>
               <p style={{ fontWeight: 700, fontSize: 18, color: '#1e293b', marginBottom: 8 }}>Diplôme d&apos;Ingénieur</p>
-              <p style={{ color: '#64748b', fontSize: 15 }}>Formation technique en génie civil et construction</p>
+              <p style={{ color: '#64748b', fontSize: 15 }}>Diplômé ingénieur BTP</p>
             </div>
 
             <div style={{ background: '#f8fafc', borderRadius: 16, padding: '24px', border: '1px solid #e2e8f0' }}>
